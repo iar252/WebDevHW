@@ -1,0 +1,150 @@
+		*{
+			padding: 0;
+			margin: 0;
+		}
+			.input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 50%;
+}
+ul{
+	list-style-type: none;
+}
+
+		body{
+			 font-family: 'Helvetica Neue', Arial;
+    		background-color: #dba664;
+background-image: url("https://www.transparenttextures.com/patterns/food.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */}
+		header{
+			padding: 10px;
+			margin: 20px;
+			text-align: center;
+
+		}
+		main nav ul li a{
+			text-decoration: none;
+			color: black;
+		}
+		nav ul li {
+			text-align: center;
+			margin-top: 5px;
+		}
+
+		header nav ul li a{
+			display: inline-block;
+			color: rgb(179, 36, 0);
+			text-decoration: none;
+			padding: 20px;
+			
+			
+		}
+		header nav ul li :hover{
+			background-color: black;
+			color:white;
+		}
+		header nav ul{
+			border:1px double black;
+			margin-top: 10px;
+			margin-left: 275px;
+			padding-top: 1px;
+			width: 800px;
+			background-color: white;
+	}
+		ul li a.active{
+			background-color: papayawhip;
+		}
+
+		main aside.more{
+			padding: 35px;
+			margin-left: 30px;
+			display: inline-block;
+			background-color: white;
+			-webkit-box-shadow: 8px 8px 8px 8px rgba(10,10,20,.5);
+			-moz-box-shadow: 8px 8px 8px 8px rgba(10,10,20,.5);
+			box-shadow: 8px 8px 8px 8px rgba(10,10,20,.5);
+			padding-bottom: 20px;
+
+		}
+		h2{
+			color:rgb(179, 36, 0);
+		}
+		aside h2{
+			text-align: center;
+			text-decoration: underline;
+			color: rgb(179, 36, 0);
+		}
+		figure{
+			margin-left: 50px;
+			padding:10px;
+			padding-top: 15px;
+			background-color: white;
+			display: inline-block;
+			width:525px;
+			text-align: center;
+			-webkit-box-shadow: 8px 8px 8px 8px rgba(10,10,20,.5);
+			-moz-box-shadow: 8px 8px 8px 8px rgba(10,10,20,.5);
+			box-shadow: 8px 8px 8px 8px rgba(10,10,20,.5);
+			
+		}
+		div h2{
+			padding-top: 15px;
+			text-align: center;
+		}
+		div h2 ul li{
+			text-align: center;
+		}
+	
+		div ul{
+			text-align: center;
+		}
+		.special{
+			background-color: white;
+			margin-left: 100px;
+			margin-top: 70px;
+			width:1200px;
+			border: 20px solid white;
+			list-style: decimal inside none;
+			-webkit-box-shadow: 5px 18px 18px 18px rgba(10,10,20,.4);
+			-moz-box-shadow: 5px 18px 18px 18px rgba(10,10,20,.4);
+			box-shadow: 5px 18px 18px 18px rgba(10,10,20,.4);
+			margin-bottom: 100px;
+
+		}
+		header nav li {
+			display: inline-block;
+		}
+
+		footer {
+			text-align: center;
+		}
+		button{
+			display: block;
+			padding: 15px;
+			margin-left: 15px;
+			margin-top: 10px;
+			margin-bottom: 25px;
+			background-color: papayawhip;
+			border-radius: 10px;
+			
+		}
+			
+			aside.right{
+			padding: 30px;
+			margin-bottom: 10px;
+			margin-left: 60px;
+			display: inline-block;
+			background-color: white;
+			-webkit-box-shadow: 8px 8px 8px 8px rgba(10,10,20,.5);
+			-moz-box-shadow: 8px 8px 8px 8px rgba(10,10,20,.5);
+			box-shadow: 8px 8px 8px 8px rgba(10,10,20,.5);
+			padding-bottom: .1px;
+			
+			position:absolute;
+
+		}
+
+
