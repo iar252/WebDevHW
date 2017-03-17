@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Golden Olden Days</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/base.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
+
+</head>
+<body>
+
+<header>
+<nav>
+<a href="Midterm_Project.html"><h1><i>Golden Olden Days</i></h1></a>
+<ul>
+<li><a href="reviews.html">Reviews</a>
+      <ul>
+                    
+                    
+                    <li><a href="reviews.html#khnh">Kal Ho Naa Ho</a></li>
+                    <li><a href="reviews.html#k3g">Kabhi Kushi Khabhie Gham</a></li>
+                    <li><a href="reviews.html#devdas">Devdas</a></li>
+                    <li><a href="reviews.html#ggni">Ghagini</a></li>
+                    <li><a href="reviews.html#hssh">Hum Saath Saath Hain</a></li>
+                    <li><a href="reviews.html#ddlj">Dilwale Dulhania Le Jayenge</a></li>
+                    <li><a href="reviews.html#oso">Om Shanti Om</a></li>
+                    <li><a href="reviews.html#bm">Bajirao Mastani</a></li>
+                    </li>
+                    </ul>
+<li><a href="songs.html">Songs</a></li>
+<li><a href="actors.html">Actors</a></li>
+</ul>
+
+</nav>
+</header>
+
+<main>
+<div class="slideshow">
+<!-- devdas -->
+<img class="mySlides" src="img/FullSizeRender (7).jpg" width="800">
+<img class="mySlides" src="img/FullSizeRender (8).jpg" width="800">
+<img class="mySlides" src="img/FullSizeRender (19).jpg" width="800">
+<img class="mySlides" src="img/FullSizeRender (15).jpg" width="800">
+<!-- k3g -->
+<img class="mySlides" src="img/FullSizeRender (31).jpg" width="800">
+<img class="mySlides" src="img/FullSizeRender (33).jpg" width="800">
+<img class="mySlides" src="img/FullSizeRender (29).jpg" width="800">
+<img class="mySlides" src="img/FullSizeRender (32).jpg" width="800">
+<img class="mySlides" src="img/FullSizeRender (28).jpg" width="800">
+<!-- kal ho na ho -->
+<img class="mySlides" src="img/FullSizeRender (30).jpg" width="800">
+<img class="mySlides" src="img/FullSizeRender (11).jpg" width="800">
+<img class="mySlides" src="img/FullSizeRender (12).jpg" width="800">
+<!-- gaghini -->
+<img class="mySlides" src="img/FullSizeRender (24).jpg" width="800">
+<img class="mySlides" src="img/FullSizeRender (25).jpg" width="800">
+<img class="mySlides" src="img/FullSizeRender (26).jpg" width="800">
+<!-- Hum saath saath hain -->
+<img class="mySlides" src="img/FullSizeRender (5).jpg" width="800">
+<!-- dulhane dullaniya lehjange -->
+<img class="mySlides" src="img/FullSizeRender (21).jpg" width="800">
+<img class="mySlides" src="img/FullSizeRender (16).jpg" width="800">
+<img class="mySlides" src="img/FullSizeRender (17).jpg" width="800">
+<!-- om shanti om -->
+<img class="mySlides" src="img/FullSizeRender (6).jpg" width="800">
+<img class="mySlides" src="img/FullSizeRender (9).jpg" width="800">
+<img class="mySlides" src="img/FullSizeRender (13).jpg" width="800">
+<img class="mySlides" src="img/FullSizeRender (37).jpg" width="800">
+<img class="mySlides" src="img/FullSizeRender (34).jpg" width="800">
+<img class="mySlides" src="img/FullSizeRender (35).jpg" width="800">
+<img class="mySlides" src="img/FullSizeRender (36).jpg" width="800">
+<!-- bajirao mastani-->
+<img class="mySlides" src="img/FullSizeRender (3).jpg" width="800">
+<img class="mySlides" src="img/FullSizeRender (1).jpg" width="800">
+<img class="mySlides" src="img/FullSizeRender (2).jpg" width="800">
+</div>
+
+
+<script type="text/javascript">
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 1000); // Change image every 3 seconds
+}
+</script>
+
+
+
+<img class="icon" src="img/bitmoji.jpg">
+<p class="about">
+Hello! This blog is basically for those who loved the Bollywood movies they watched growing up as kids. I think we all feel that little tug at our hearts when we remember the songs we danced to and the scenes we cried to. I'll be reviewing different movies with a perspective of a young adult instead of the child who watched these movies, so expect lots of sarcasm. You'll notice a lot of the movies are Shahrukh Khan movies and thats basically because...well who doesn't love the King of Bollywood. <br>
+<strong>Sidenote: </strong>If you were never exposed to Bollywood, I summarize the movies as well so you can read about them and get the gist of it instead of watching it (who reads a summary instead of watching the movie though...unless its Harry Potter or Percy Jackson)  Anyway, enjoy my reviews! 
+</p>
+
+
+</main>
+
+</body>
+</html>
