@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- used https://developers.google.com/maps/documentation/javascript/adding-a-google-map#page to better understand the code -->
+	<title>Hello World</title>
+	<script type="text/javascript">
+		 alert("Welcome! Click the endangered species' name to find out where they're from"); 
+
+	</script> 
+
+	<style>
+	/* defines the area where the map will be */
+	#map{
+		height: 400px;
+		
+		background-color: black;
+	}
+
+	h1{
+		color: rgb(87, 150, 92);
+		margin-left: 40%;
+	}
+	button{
+		background-color: #57bc90;
+		color: white;
+		margin-left: 10%;
+	}
+	body{
+		background-color: rgb(252, 242, 153);
+	}
+	</style>
+</head>
+
+<!-- ecuador: lat: -1.8312, lng: -78.1834 -->
+<!-- Primorsky Krai 45.0526° N, 135.0000° E -->
+<!-- Florida 27.6648° N, 81.5158° W -->
+<!-- Ethopida 9.1450° N, 40.4897° E -->
+<!-- China 35.8617° N, 104.1954° E -->
+ 
+<body>
+<h1> Preserve Life </h1>
+<button onclick="initMap(45.0526, 135.0000)">Amur Leopard</button>
+<button onclick="initMap(9.1450,40.4897)">Ethopian Wolf</button>
+<button onclick="initMap(27.6648,-81.5158)">Florida Panther</button>
+<button onclick="initMap(-1.8312, -78.1834)">Galapagos Penguin</button>
+<button onclick="initMap(35.8617, 104.1954)">Giant Panda</button>
+
+
+<!-- the area where the map will be  -->
+<div id="map"></div>
+<script>
+function initMap(x,y){ 
+	var loc = {lat: x, lng: y};
+	var map = new google.maps.Map(document.getElementById('map'),{
+		zoom: 4,
+		center: loc
+
+	});
+	var marker = new google.maps.Marker({
+		position: loc,
+		map:map
+	});
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZfAXYtrPttOvtbmzOP6pGBBtKb1HdqIg&callback=initMap"
+ async defer>
+ </script>
+
+ 	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.0/p5.js"></script>
+  <script language="javascript" type="text/javascript" src="mover.js"></script>
+  <script language="javascript" type="text/javascript" src="sketch.js"></script>
+
+
+
+</body>
+</html>
